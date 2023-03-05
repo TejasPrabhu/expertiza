@@ -4,8 +4,8 @@
   become: true
 
   vars:
-    user: amundra
-    user_home: "/root"
+    user: tprabhu2
+    user_home: "/home/{{ user }}"
     app_root: "{{ user_home }}/expertiza"
     rbenv_root: "/usr/local/rbenv"
     ruby_version: 3.2.1
